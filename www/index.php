@@ -16,7 +16,7 @@
     <?php
 	    
     $conn = mysqli_connect('db', 'user', 'R1234-56', "myDb");
-    $query = 'SELECT * From Jupiler League';
+    $query = 'SELECT * From JupilerLeague';
     $result = mysqli_query($conn, $query);
     echo '<table class="table table-striped">';
     echo '<thead><tr><th></th><th>Thuis</th><th>Uit</th></tr></thead>';
