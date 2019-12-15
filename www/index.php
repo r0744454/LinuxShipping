@@ -22,7 +22,7 @@
     echo '<thead><tr><th></th><th>Thuis</th><th>Uit</th></tr></thead>';
     while($value = $result->fetch_array(MYSQLI_ASSOC)){
         echo '<tr>';
-        echo '<td><span class="glyphicon glyphicon-search"></span></td>';
+        echo '<td><span class="glyphicon glyphicon-stats"></span></td>';
         foreach($value as $element){
             echo '<td>' . $element . '</td>';
         }
