@@ -19,7 +19,7 @@
     $query = 'SELECT * From Person';
     $result = mysqli_query($conn, $query);
     echo '<table class="table table-striped">';
-    echo '<thead><tr><th></th><th>id</th><th>name</th></tr></thead>';
+    echo '<thead><tr><th></th><th>Thuis</th><th>Uit</th></tr></thead>';
     while($value = $result->fetch_array(MYSQLI_ASSOC)){
         echo '<tr>';
         echo '<td><span class="glyphicon glyphicon-search"></span></td>';
