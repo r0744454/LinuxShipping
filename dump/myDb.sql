@@ -9,12 +9,12 @@ SET time_zone = "+00:00";
 
 -- voer hier tussen u persoonlijke sql scripts
 
-CREATE TABLE `Jupiler League` (
+CREATE TABLE `JupilerLeague` (
    `thuis` int(11) NOT NULL,
    `uit` int(11) NOT NULL,
    `ploeg` varchar(20) NOT NULL
  ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
- INSERT INTO `Jupiler League` (`thuis`, `uit`, `ploeg`) VALUES
+ INSERT INTO `JupilerLeague` (`thuis`, `uit`, `ploeg`) VALUES
  (1,4, 'Anderlecht - Standaard'),
  (2,2, 'Genk - Mechelen'),
  (0,1, 'Club Brugge - Gent'),
