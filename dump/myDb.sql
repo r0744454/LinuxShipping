@@ -15,11 +15,11 @@ CREATE TABLE `Person` (
    `name` varchar(20) NOT NULL
  ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
  INSERT INTO `Person` (`id`, `id2`, `name`) VALUES
- (1, 5, 'Robbe'),
- (2, 4, 'Senne'),
- (3, 3, 'Vince'),
- (4, 2, 'Jelle'),
- (5, 1, 'Filippo');
+ (1,-4, 'Anderlecht - Standaard'),
+ (2,-2, 'Genk - Mechelen'),
+ (0,-1, 'Club Brugge - Gent'),
+ (1,-2, 'Charleroi - Cherle'),
+ (3,-1, 'Oostende - Beveren');
  
 -- voer hier tussen u persoonlijke sql scripts
 
